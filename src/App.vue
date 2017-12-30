@@ -12,7 +12,6 @@
         </ul>
       </aside>
       <div class="content">
-        <img src="./assets/logo.png">
         <router-view></router-view>
       </div>
     </main>
