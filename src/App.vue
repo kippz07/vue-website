@@ -6,9 +6,16 @@
     <main>
       <aside class="sidebar">
         <ul>
-          <li>Home</li>
-          <li>Android</li>
-          <li>Sparta</li>
+          <li>
+            <router-link
+             :to="{ name: 'home', params: {} }">Home
+            </router-link>
+          </li>
+          <li>
+            <router-link
+             :to="{ name: 'android', params: {} }">Android
+            </router-link>
+          </li>
         </ul>
       </aside>
       <div class="content">
@@ -66,7 +73,6 @@ export default {
   .content {
     flex: 1 1 70%;
     display: flex;
-    align-items: center;
     justify-content: center;
   }
 </style>
