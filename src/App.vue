@@ -19,7 +19,7 @@
         </ul>
       </aside>
       <div class="content">
-        <router-view></router-view>
+        <router-view/>
       </div>
     </main>
   </div>
@@ -43,7 +43,6 @@ export default {
   main {
     display: flex;
     height: calc(100vh - 90px);
-    max-width: 1200px;
     margin-top: 90px;
     margin-left: auto;
     margin-right: auto;
@@ -61,7 +60,7 @@ export default {
   aside {
     height: 100%;
     overflow-y: auto;
-    width: 25%;
+    width: 15%;
     padding: 50px 30px;
     box-sizing: border-box;
     border-right: 1px solid #42b983;

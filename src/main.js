@@ -3,6 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+require('../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss')
 
 Vue.config.productionTip = false
 
@@ -10,6 +11,7 @@ Vue.config.productionTip = false
 new Vue({
   el: '#app',
   router,
+  // render: h => h(App) does the same as template below
   template: '<App/>',
   components: { App }
 })

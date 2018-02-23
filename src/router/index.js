@@ -10,14 +10,14 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'HelloWorld',
-      component: HelloWorld
-    },
-    {
-      path: '/home',
       name: 'home',
       component: Home
     },
+    // {
+    //   path: '/home',
+    //   name: 'home',
+    //   component: Home
+    // },
     {
       path: '/android',
       name: 'android',
